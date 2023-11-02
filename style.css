@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    font-size: 1.4rem;
+    font-family: 'Source Serif 4', serif;
+    background-image: url(./image/background.png);
+}
+
+.cheesecake {
+    max-width: 39.3rem;
+    height: 104.8rem;
+    margin: 3.0rem auto 5.0rem;
+}
+
+.info {
+    width: 30.8rem;
+    height: 46.1rem;
+    margin: 0 auto;
+    padding: 1.0rem;
+}
+
+.preparation {
+    width: 30.8rem;
+    height: 43.1rem;
+    margin: 0 auto;
+    padding: 1.0rem;
+}
+
+.info h1 {
+    text-align: center;
+}
+
+h1 {
+    width: 28.9rem;
+    height: 1.7rem;
+    color: #A54328;
+    font-size: 2.8rem;
+}
+
+.info img {
+    width: 30.0rem;
+    height: 17.7rem;
+    margin: 4.6rem auto;
+}
+
+.info p {
+    width: 31.9rem;
+    height: 17.2rem;
+    color: #A54328;
+    font-size: 1.4rem;
+}
+
+.preparation {
+    width: 29.8rem;
+    height: 43.1rem;
+    margin: 5.3rem auto;
+}
+
+.preparation h1 {
+    margin-bottom: 3.6rem;
+}
+
+.list {
+    color: #A54328;
+    font-size: 1.4rem;
+    padding: 0 1.5rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+    color: #A54328;
+    margin: 2.0rem 0 0;
+}
+
+button {
+    width: 9.4rem;
+    height: 3.1rem;
+    padding: 1.1rem;
+    background: #A54328;
+    color: white;
+    font-weight: 500;
+    border-radius: 6.0rem;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.0rem;
+    margin: 2.4rem 0 1.0rem;
+}
+
+@media (min-width: 40em) {
+
+    .cheesecake {
+        max-width: 144.0rem;
+        height: 642px;
+        display: flex;
+        gap: 5.9rem;
+        margin: 4.0rem auto;
+    }
+
+    .info {
+        margin-top: 0;
+    }
+
+    .preparation {
+        margin-top: 3px;
+    }
+
+}
