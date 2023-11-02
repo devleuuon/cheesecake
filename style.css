@@ -8,7 +8,7 @@ body {
     font-size: 62.5%;
     font-size: 1.4rem;
     font-family: 'Source Serif 4', serif;
-    background-image: url(./image/background.png);
+    background-color: white;
 }
 
 .cheesecake {
@@ -93,6 +93,10 @@ button {
 }
 
 @media (min-width: 40em) {
+
+    body {
+        background-image: url(./image/background.png);
+    }
 
     .cheesecake {
         max-width: 144.0rem;
